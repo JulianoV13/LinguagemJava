@@ -6,6 +6,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="vivo.jar"/>
 	<classpathentry kind="lib" path="jsch-0.1.55.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Juliano/ProjetoAssessoria/mysql-connector-j-8.0.32.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Juliano/ProjetoAssessoria/jsch-0.1.55.jar"/>
+	<classpathentry kind="lib" path="image.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
