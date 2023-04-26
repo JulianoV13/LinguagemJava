@@ -1,5 +1,7 @@
 package com.projeto.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,9 +17,9 @@ public class PrimeiroController {
 	@Autowired
 	private UsuarioRepository ur;
 	
-	@GetMapping("/projeto/banco")
-	public String mensagem() {
-		return "Olá! eu estou aqui";
+	@GetMapping("/projeto/banco/listar")
+	public List<Usuario> mensagem() {
+		return ur.findAll();
 	}
 	@PostMapping("/projeto/banco/cadastrar")
 	public String cadastro(@RequestBody Usuario dados) {
