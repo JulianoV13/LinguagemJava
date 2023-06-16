@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+form{
+    width: 30%;
+    margin: 10% auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20pt;
+    text-align: right;
+    outline-color: dodgerblue;
+}
+button{
+    width: 25%;
+    height: 100px;
+    background-color: darkcyan;
+    font-size: 30pt;
+    color: white;
+    cursor: pointer;
+}
+form #btnIgual{
+    width: 50%;
+    border-bottom-left-radius: 10px;
+}
+form #btnRaiz{
+    border-bottom-right-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+}
+button:active{
+    background-color: blueviolet;
+}
